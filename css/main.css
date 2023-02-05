@@ -1,0 +1,45 @@
+.toptop #currentTime {
+    background-color: #78C0FB;
+    text-align: right;
+}
+.shouyedingbu .logo {
+    position: absolute;
+    left: 25px;
+    top: 40px;
+}
+
+toptop {
+    background-color: #2DA4FB;
+    text-align: right;
+}
+.shouyedingbu .logoright {
+    position: absolute;
+    top: 40px;
+    right: 25px;
+	background: -webkit-linear-gradient(to left,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 50%, rgba(255,255,255,1) 100%), url("../img/shouyeyou.jpg") no-repeat;
+    background: -o-linear-gradient(to left, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 50%, rgba(255,255,255,1) 100%), url("../img/shouyeyou.jpg") no-repeat;
+    background: linear-gradient(to left,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 50%, rgba(255,255,255,1) 100%), url("../img/shouyeyou.jpg") no-repeat;
+    /* [disabled]color: #DEADFF; */
+    /*margin-right: -50px;*/
+}
+.menu {
+    margin: auto;
+    width: 1050px;
+    height: 42px;
+    position: relative;
+    background-color: rgba(223,220,220,0.5);
+    top: 140px;
+    display: block;
+}
+.menu .tohome {
+    text-align: left;
+    padding-right: 15px;
+    width: 80px;
+}
+.menu .li {
+    float: left;
+    margin-left: 1px;
+    height: 40px;
+    position: relative;
+    line-height: 40px;
+}
