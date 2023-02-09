@@ -1,3 +1,12 @@
+body{
+	font-family:"微软雅黑", Arial, Helvetica, sans-serif;
+	color:#333333;
+	line-height:25px;
+	font-size:14px;
+}
+/*以上为全页基本样式，没事不要动*/
+
+
 .toptop #currentTime {
     background-color: #78C0FB;
     text-align: right;
@@ -12,7 +21,7 @@ toptop {
     background-color: #2DA4FB;
     text-align: right;
 }
-.shouyedingbu .logoright {
+.logoright {
     position: absolute;
     top: 40px;
     right: 25px;
@@ -22,24 +31,60 @@ toptop {
     /* [disabled]color: #DEADFF; */
     /*margin-right: -50px;*/
 }
+
 .menu {
-    margin: auto;
-    width: 1050px;
-    height: 42px;
-    position: relative;
-    background-color: rgba(223,220,220,0.5);
+    height: 25px;
+    background-color: rgba(189,189,189,1.00);
+    width: 95%;
+    margin: 0 0 5px;
+    position: fixed;
     top: 140px;
-    display: block;
 }
-.menu .tohome {
-    text-align: left;
-    padding-right: 15px;
-    width: 80px;
+
+.menu ul{
+    list-style-type: none;
+    width: 95%;
+    white-space: nowrap;
+    padding: 0;
+    margin-left: 3%;
+    height: 25px;
+	/*overflow: hidden;*//*溢出隐藏*/
 }
-.menu .li {
-    float: left;
-    margin-left: 1px;
-    height: 40px;
+
+.menu li{
+    float: left;/*li内容横向浮动*/
+    margin-right: 1%;
     position: relative;
-    line-height: 40px;
+    overflow: hidden;
+    width: auto;
+    height: 25px;
+}
+
+.menu li a{
+    display: block;
+    color: white;
+    text-align: center;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+.menu li a:hover{
+    background-color: rgba(85,121,255,1.00);
+}
+
+.menu ul li ul{
+	margin-left: -0.2px;
+    background: rgba(85,121,255,1.00);
+    position: absolute;	
+	display: none;
+}
+
+.menu ul li ul li{
+	margin-right:0;
+	float:none;
+    text-align: center;
+}
+
+.menu ul li:hover ul{
+    display: block;
 }
