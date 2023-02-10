@@ -37,8 +37,9 @@ toptop {
     background-color: rgba(189,189,189,1.00);
     width: 95%;
     margin: 0 0 5px;
-    position: fixed;
-    top: 140px;
+    position: relative;
+    top: 115px;
+    left: 30px;
 }
 
 .menu ul{
@@ -80,11 +81,28 @@ toptop {
 }
 
 .menu ul li ul li{
-	margin-right:0;
-	float:none;
+    float: none;
     text-align: center;
 }
 
 .menu ul li:hover ul{
     display: block;
+}
+
+.menu ul li ul li:hover{
+	background: rgba(85,121,255,1.00);
+}
+.photo {
+    position: absolute;
+    top: 170px;
+    width: 90%;
+    height: auto;
+    /* [disabled]transform: translate(-350px,-200px); */
+}
+.focus {
+    position: relative;
+    width: 90%;
+    height: auto;
+    background: palegoldenrod;
+    overflow: hidden;
 }
