@@ -1,8 +1,8 @@
 window.onload=function(){
 var items=document.getElementsByClassName("item");
 var circles=document.getElementsByClassName("circle");
-var leftBtn=document.getElementById("btn-left");
-var rightBtn=document.getElementById("btn-right");
+var leftBtn=document.getElementById("button-left");
+var rightBtn=document.getElementById("button-right");
 var content=document.querySelector('.content');
 var index=0;
 var timer=null;
@@ -69,6 +69,3 @@ content.onmouseleave=function(){
 	},1500)
 }
 }
-————————————————
-版权声明：本文为CSDN博主「念你那丝微笑」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
-原文链接：https://blog.csdn.net/pig_pig32/article/details/107993759
